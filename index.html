@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lilita+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!--ICones link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="all-content">
+        <!--Começo Nav-->
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" id="logo"><img src="images/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-bars" style="color: white; font-size: 23px;"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#menu">Menu</a>
+                  </li><li class="nav-item">
+                    <a class="nav-link" href="#produtos">Produtos</a>
+                  </li><li class="nav-item">
+                    <a class="nav-link" href="#galeria">Galeria</a>
+                  </li><li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                  </li><li class="nav-item">
+                    <a class="nav-link" href="#blogs">Blog</a>
+                  </li>                
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        <!--Final Nav-->
+        <!--Começo home-->
+          <section id="home">
+            <div class="content">
+                <h3>O sabor que desperta seus<br> melhores momentos</h3>
+                <p>Cada gole reflete nossa dedicação e amor pelo café. Venha viver essa experiência especial.
+                </p>
+                <button id="btn">Compre agora</button>
+            </div>
+          </section>
+
+        <!--Final home-->
+        <!--Começo Sobre-->
+        <section id="sobre">
+            <div class="container">
+                <div class="heading">Sobre <span>Nós</span></div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="images/about.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>O que torna o nosso café especial?</h3>
+                        <p>O nosso café começa com a seleção de grãos cultivados de forma sustentável. Cada grão é colhido no ponto certo, garantindo qualidade e sabor. Valorizamos produtores que cuidam do meio ambiente e priorizam boas práticas.
+                            <br><br>A torra é um processo artesanal, realizado com precisão para destacar as melhores notas de cada grão. O aroma envolvente e a textura perfeita transformam cada xícara em uma experiência única. Nosso foco é proporcionar o máximo em sabor e prazer.
+                            <br><br>Nossos baristas dedicam-se a preparar cada bebida com carinho e atenção aos detalhes. Da escolha dos ingredientes à finalização da xícara, tudo é feito para impressionar. Aqui, a paixão pelo café está em cada etapa.
+                        </p>
+                        <button id="sobre-btn">Saiba mais.</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Final Sobre-->
+        <!--Começo Card-->
+        <section id="top-cards">
+            <div class="heading2">Top <span>Categorias</span></div>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="images/c1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="images/c2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="images/c3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!--Final Card-->
+        <!--Começo Menu-->
+        <section id="menu">
+            <div class="container">
+                <div class="heading3">Menu</div>
+            </div>
+            <div class="container" id="container2">
+
+                <div class="row">
+
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="images/m1.png" alt="">
+                            <div class="card-body">
+                                <div class="star text-center">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <h3>Café com leite</h3>
+                                <p>$10 <strike>$17</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="images/m2.png" alt="">
+                            <div class="card-body">
+                                <div class="star text-center">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <h3>Alma gelada</h3>
+                                <p>$17 <strike>$22</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="images/m3.png" alt="">
+                            <div class="card-body">
+                                <div class="star text-center">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <h3>Baunilha do vale</h3>
+                                <p>$25 <strike>$32</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="images/m4.png" alt="">
+                            <div class="card-body">
+                                <div class="star text-center">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <h3>Céu de canela</h3>
+                                <p>$22 <strike>$27</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div class="row" style="margin-top: 30px;">
+
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="images/m5.png" alt="">
+                            <div class="card-body">
+                                <div class="star text-center">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <h3>Encanto feliz</h3>
+                                <p>$18 <strike>$23</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="images/m6.png" alt="">
+                            <div class="card-body">
+                                <div class="star text-center">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <h3>Café tradicional</h3>
+                                <p>$8 <strike>$15</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="images/m7.png" alt="">
+                            <div class="card-body">
+                                <div class="star text-center">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <h3>Flor de leite</h3>
+                                <p>$22 <strike>$29</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="images/m8.png" alt="">
+                            <div class="card-body">
+                                <div class="star text-center">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <h3>Noite intensa</h3>
+                                <p>$10 <strike>$18</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+        <!--Final Menu-->
+        <!--Começo Produtos-->
+        <section id="produtos">
+            <div class="container">
+                <div class="heading4">Produtos</div>
+            </div>
+
+            <div class="container" id="container3">
+                <div class="row">
+                    <div class="col-md-3 py-3 py-3">
+                        <div class="card">
+                            <img src="images/arabica coffee.png" alt="">
+                            <div class="card-body">
+                                <h3>Café Árabe</h3>
+                                <p>$35 <strike>$50</strike><span class="fa-solid fa-cart-shopping"></span></p>
+                            </div>                   
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-3">
+                        <div class="card">
+                            <img src="images/Cappuccino coffee.png" alt="">
+                            <div class="card-body">
+                                <h3>Café Cappuccino</h3>
+                                <p>$50 <strike>$75</strike><span class="fa-solid fa-cart-shopping"></span></p>
+                            </div>                   
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-3">
+                        <div class="card">
+                            <img src="images/Black Coffee.png" alt="">
+                            <div class="card-body">
+                                <h3>Café Preto</h3>
+                                <p>$18 <strike>$30</strike><span class="fa-solid fa-cart-shopping"></span></p>
+                            </div>                   
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-3">
+                        <div class="card">
+                            <img src="images/Decaf caffee.png" alt="">
+                            <div class="card-body">
+                                <h3>Café Descafeinado</h3>
+                                <p>$25 <strike>$35</strike><span class="fa-solid fa-cart-shopping"></span></p>
+                            </div>                   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Final Produtos-->
+        <!--Começo Galeria-->
+        <div class="container" id="galeria">
+            <div class="heading5">Nossa <span>Galeria</span></div>
+
+            <div class="row" style="margin-top: 30px;">
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/image1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/image2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/image3.png" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="row" style="margin-top: 30px;">
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/image4.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/image5.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="images/image6.png" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <!--Final Galeria-->
+        <!--Começo Contato-->
+        <section id="contato">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-7">
+                        <div class="heading6">Entre em <span>contato</span></div>
+                        <p>Quer saber mais sobre nossos serviços? Tem alguma dúvida ou sugestão? <br>Preencha o formulário abaixo e retornaremos o mais breve possível!
+                        </p>
+                        <input type="text" class="form-control" placeholder="Nome" aria-label="default input example"><br>
+                        <input type="email" class="form-control" placeholder="Email" aria-label="default input example"><br>
+                        <input type="number" class="form-control" placeholder="Telefone" aria-label="default input example"><br>
+                        <button id="contato-btn">Enviar mensagem</button>
+                    </div>
+
+                    <div class="col-md-5" id="col">
+                        <h1>Infomações</h1>
+                        <p><i class="fa-regular fa-envelope"></i> Exemplo@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> +55 11 9 0000-0000</p>
+                        <p><i class="fa-solid fa-building-columns"></i> Coffee Shop</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum architecto itaque, assumenda necessitatibus accusamus voluptatem magnam aut! Quas, sunt perspiciatis! Iure, voluptatem quis labore sint ipsum voluptates s</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--Final Contato-->
+        <!--Começo Blog-->
+        <section id="blogs">
+            <div class="heading7">Noticias mais<span> recentes</span></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="images/b1.png" alt="">
+                            <div class="card-body">
+                                <h3>Para os apaixonados por café</h3>
+                                <h5>Admin / 25 Dezembro 2024</h5>
+                                <p>Descubra curiosidades, dicas e histórias sobre o mundo do café! ☕🌟 No nosso blog, o aroma do conhecimento te acompanha a cada clique. Vem conferir!</p>
+                                <button id="blog-btn">Leia mais.</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="images/b2.png" alt="">
+                            <div class="card-body">
+                                <h3>Uma pausa para o café?</h3>
+                                <h5>Admin / 26 Dezembro 2024</h5>
+                                <p>Transforme sua xícara em uma experiência única! 🖤 No nosso blog, você encontra receitas incríveis, métodos de preparo e tudo o que um verdadeiro amante de café precisa saber.</p>
+                                <button id="blog-btn">Leia mais.</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="images/b3.png" alt="">
+                            <div class="card-body">
+                                <h3>O café tem muito a contar!</h3>
+                                <h5>Admin / 27 Dezembro 2024</h5>
+                                <p>Do grão à xícara, explore as nuances de sabor, cultura e tradição do café no nosso blog. 🍂✨ Deixe o café inspirar seu dia!</p>
+                                <button id="blog-btn">Leia mais.</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--Final Blog-->
+
+        <footer id="footer">
+            <div class="footer-logo text-center"><img src="images/logo.png" alt=""></div>
+            <div class="socail-links text-center">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-pinterest"></i>
+            </div>
+        </footer>
+        <a href="#" class="arrow"><i><img src="images/up-arrow.png" alt="" width="50px"></i></a>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
